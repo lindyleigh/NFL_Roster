@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Out With Your Hawk Out</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="site.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+</head>
+
+<body>
+     <div>
+        <h1>My NFL Roster</h1>
+    </div>
+   
+
+   <nav class="navbar">
+        <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Stats</a></li>
+                    <li><a href="#">Projections</a></li> 
+                    <li><a href="#">News</a></li> 
+                </ul>
+            </div>
+    </nav>
+   
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12 player-form">
+            <form>
+                <div class="form-group">
+                    <label for="player">Name, Position, or Team</label>
+                    <input type="text" class="form-control" name="infoInput" id="query">
+                </div>
+                <button type="submit" class="btn" id="find">Find Player</button>
+                <button type="reset" class="btn" id ="reset">Reset</button>
+            </form>
+        </div>
+        <div class="my-team-header">
+            <h3>My Team</h3>
+        </div>
+        <div class="my-team" style="color: white; margin-left: 5px; padding: 10px">
+            <p>Your team is currently empty.</p>
+        </div>
+        <div class="results-header">
+            <h3>Results</h3>
+        </div>
+        <div class="col-md-12 player-roster">  
+        </div>
+        </div>
+    
+    </div>
+
+    </div>
+
+    <script src="playerservice.js"></script>
+    <script src="app.js"></script>
+    
+
+</body>
+</html>

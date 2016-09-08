@@ -1,0 +1,87 @@
+body {
+    background-image: url("http://www.officialpsds.com/images/stocks/---Football-Background-stock6423.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar .nav > li > a {
+    float: none;
+    line-height: 19px;
+    padding: 9px 10px 11px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+.navbar .navbar-nav {
+  display: inline-block; 
+  float: none;
+  vertical-align: top;
+}
+
+.my-team-header {
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.player-card {
+    display: inline-block;
+    border: 5px solid black;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: brown;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 20px 42px -4px white;
+    padding: 10px;
+    
+}
+
+.form-group {
+    color: white;
+    margin-top: 20px;
+}
+
+#find, #reset {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.btn-danger, .btn-success {
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+.results-header {
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
